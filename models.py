@@ -1,4 +1,3 @@
-# models.py
 from mongoengine import Document, StringField, DateTimeField, ReferenceField, ListField
 
 class Author(Document):
