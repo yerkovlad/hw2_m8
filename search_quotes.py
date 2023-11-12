@@ -1,7 +1,7 @@
 from mongoengine import connect
 from models import Quote, Author
 
-connect('your_database_name', host='your_mongodb_connection_string')
+connect('test', host='mongodb+srv://yerkovlad:02012009@atlascluster.qwykxm4.mongodb.net/')
 
 def search_quotes(query):
     if 'name' in query:
