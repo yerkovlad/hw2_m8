@@ -3,7 +3,7 @@ from faker import Faker
 from mongoengine import connect
 from models import Contact
 
-connect('your_database_name', host='your_mongodb_connection_string')
+connect('test', host='mongodb+srv://yerkovlad:02012009@atlascluster.qwykxm4.mongodb.net/')
 
 connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))
 channel = connection.channel()
