@@ -2,7 +2,7 @@ from mongoengine import connect
 from models import Author, Quote
 import json
 
-connect('your_database_name', host='your_mongodb_connection_string')
+connect('test', host='mongodb+srv://yerkovlad:02012009@atlascluster.qwykxm4.mongodb.net/')
 
 with open('authors.json', 'r') as file:
     authors_data = json.load(file)
